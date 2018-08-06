@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions should create an action to get a chatroom's info 1`] = `
+Array [
+  Object {
+    "loader": true,
+    "showChatroom": true,
+    "type": "GET_ROOM_DATA_STARTED",
+  },
+  Object {
+    "loader": false,
+    "messages": Array [
+      Object {
+        "id": "gg35545",
+        "message": "ayyyyy",
+        "name": "Ryan",
+        "reaction": null,
+      },
+      Object {
+        "id": "yy35578",
+        "message": "lmao",
+        "name": "Nick",
+        "reaction": null,
+      },
+      Object {
+        "id": "hh9843",
+        "message": "leggooooo",
+        "name": "Danielle",
+        "reaction": null,
+      },
+      Object {
+        "id": "zGcyERazI",
+        "message": "test",
+        "name": "Ryan",
+        "reaction": null,
+      },
+      Object {
+        "id": "EZlu2JQ-Ey",
+        "message": "tes",
+        "name": "Ryan",
+        "reaction": null,
+      },
+      Object {
+        "id": "iz5WycOZV",
+        "message": "tes",
+        "name": "Ryan",
+        "reaction": null,
+      },
+      Object {
+        "id": "HAqm4sPG8o",
+        "message": "tes",
+        "name": "Ryan",
+        "reaction": null,
+      },
+      Object {
+        "id": "gD7VMM2we",
+        "message": "tes",
+        "name": "Ryan",
+        "reaction": null,
+      },
+      Object {
+        "id": "v-qptq15E",
+        "message": "dsf",
+        "name": "Esther Song",
+        "reaction": null,
+      },
+      Object {
+        "id": "WGoFBOyDg",
+        "message": "Hey what's up?",
+        "name": "esther song",
+        "reaction": null,
+      },
+      Object {
+        "id": "r8Pbzvt5l",
+        "message": "hello",
+        "name": "e",
+        "reaction": null,
+      },
+      Object {
+        "id": "UZIYDIbKF",
+        "message": "hey",
+        "name": "esther",
+        "reaction": null,
+      },
+      Object {
+        "id": "UR5rXUrR1",
+        "message": "hey there",
+        "name": "Albert",
+        "reaction": null,
+      },
+      Object {
+        "id": "7phNrHXV8",
+        "message": "hey there",
+        "name": "Albert",
+        "reaction": null,
+      },
+      Object {
+        "id": "n50AzhjrJ",
+        "message": "hello",
+        "name": "Albert",
+        "reaction": null,
+      },
+      Object {
+        "id": "7_gfojOu5",
+        "message": "This is a test message",
+        "name": "username",
+        "reaction": null,
+      },
+    ],
+    "room": Object {
+      "id": 0,
+      "name": "Tea Chats",
+      "users": Array [
+        "Ryan",
+        "Nick",
+        "Danielle",
+        "Esther Song",
+        "esther song",
+        "e",
+        "esther",
+        "Albert",
+        "username",
+      ],
+    },
+    "type": "GET_ROOM_DATA_SUCCESS",
+  },
+]
+`;
+
+exports[`actions should create an action to get chatrooms 1`] = `
+Array [
+  Object {
+    "rooms": Array [
+      Object {
+        "id": 0,
+        "name": "Tea Chats",
+      },
+      Object {
+        "id": 1,
+        "name": "Coffee Chats",
+      },
+    ],
+    "type": "GET_ROOMS",
+  },
+]
+`;

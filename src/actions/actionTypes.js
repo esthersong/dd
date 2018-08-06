@@ -1,0 +1,6 @@
+export const SET_USERNAME = 'SET_USERNAME';
+export const SHOW_PROFILE = 'SHOW_PROFILE';
+export const GET_ROOMS = 'GET_ROOMS';
+export const GET_ROOM_DATA_STARTED = 'GET_ROOM_DATA_STARTED';
+export const GET_ROOM_DATA_SUCCESS = 'GET_ROOM_DATA_SUCCESS';
+export const POST_MESSAGE = 'POST_MESSAGE';
